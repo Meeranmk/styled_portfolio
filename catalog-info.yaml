@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: styled_portfolio
+  description: |
+    No description provided
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Meeranmk/styled_portfolio
+  links:
+    - title: Repository
+      url: https://github.com/Meeranmk/styled_portfolio
+spec:
+  type: service
+  lifecycle: production
+  owner: user:Meeranmk
